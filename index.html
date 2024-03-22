@@ -9,7 +9,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+    <div id="calculator">
+      <label>Width:</label>
+      <input id="width" type="number" />
+      <br />
+      <label>Length:</label>
+      <input id="length" type="number" />
+      <br />
+      <label>Cost per meter:</label>
+      <input id="cost" type="number" />
+      <br />
+      <input type="button" onclick="calculatorFunction()" value="Calculate" />
+      <p id="result">The cost is:</p>
+    </div>
+
     <script src="index.js" async defer></script>
   </body>
 </html>
