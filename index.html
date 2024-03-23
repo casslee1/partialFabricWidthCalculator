@@ -12,6 +12,9 @@
 
   <body>
     <div id="calculator">
+      <label>Original Width:</label>
+      <input id="orgWidth" type="number" />
+      <br />
       <label>Width:</label>
       <input id="width" type="number" />
       <br />
@@ -22,9 +25,11 @@
       <input id="cost" type="number" />
       <br />
       <input type="button" onclick="calculatorFunction()" value="Calculate" />
-      <p id="result">The cost is:</p>
+      <p>The cost is:</p>
+      <p id="result"></p>
     </div>
 
-    <script src="index.js" async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="main.js" async defer></script>
   </body>
 </html>
